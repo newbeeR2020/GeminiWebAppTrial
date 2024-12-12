@@ -1,0 +1,25 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gemini API Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gemini API Web App</h1>
+    <form id="apiForm">
+      <label for="userInput">入力:</label>
+      <textarea id="userInput" name="userInput" placeholder="ここに入力してください..." required></textarea>
+      <button type="submit">送信</button>
+    </form>
+    <div id="result">
+      <h2>結果:</h2>
+      <pre id="output">ここに結果が表示されます。</pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
